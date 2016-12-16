@@ -1,0 +1,31 @@
+{
+  "name": "sd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --inline --hot --open"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+	    "vue": "^2.1.4",                                   
+	    "vue-loader": "^10.0.2",    
+	    "vue-router": "^2.1.1",   
+	    "webpack": "^1.13.3",    
+	    "webpack-dev-server": "^1.16.2" ,
+	    "vue-template-compiler":"^2.1.4",
+	    "css-loader":"^0.26.0"
+	},
+	"devServer":  {
+	    "contentBase": "./public",
+	    "color": true,
+	    "port":8282,
+	    "historyApiFallback": true,
+	    "inline": true
+	  }
+
+
+}
